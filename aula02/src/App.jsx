@@ -1,14 +1,20 @@
+import React from 'react';
 import './App.css'
-import Escopo from './componentes/Escopo'
-import EscopoReduz  from './componentes/EscopoReduz'
+import Props from './componentes/Props'
+// import Escopo from './componentes/Escopo'
 import Info1v from './componentes/info1v'
+import Children from './componentes/Children'
 
 function App() {
 
   return (
     <>
-       <Escopo/>
-       <Info1v/>
+      <Props nome={"React PIU"} newname = {"teste"}/>
+      <Escopo/>
+      <Info1v/>
+      <Children>
+        <Card/>
+      </Children>
     </>
   )
 }
