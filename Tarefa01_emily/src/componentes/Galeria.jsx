@@ -7,7 +7,7 @@ function Galeria(){
     return (
         <>
             <div className={styles.galeria}>
-               <Card nome="pernalonga" foto={pernalonga}  className={styles.personagem}/>
+                <Card nome="pernalonga" foto={pernalonga}  className={styles.personagem}/>
                 <Card nome="bob esponja" foto={bob} /> 
             </div>
         </>
