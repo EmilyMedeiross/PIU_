@@ -1,0 +1,21 @@
+button{
+    background-color: darkcyan;
+    border-radius: 2px solid #fff;
+    margin-bottom: 40px;
+}
+
+.light{
+    background-color: #ffb6c1;
+    color: black;
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.dark{
+    background-color: mediumvioletred;
+    color: gainsboro;
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
