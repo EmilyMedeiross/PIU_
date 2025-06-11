@@ -1,0 +1,23 @@
+
+.tarefa {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 130px;
+  text-align: center;
+  transition: transform 0.1s;
+}
+
+.button_tarefa{
+  background-color: darkcyan;
+}
+
+
+.verde {
+  background-color: green;
+}
+
+.vermelha {
+  background-color: red;
+}

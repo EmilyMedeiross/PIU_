@@ -1,0 +1,20 @@
+
+button{
+    background-color: darkturquoise;
+    border-radius: 2px solid #fff;
+    margin-bottom: 40px;
+    border:none;
+}
+
+.claro{
+    background-color:azure;
+    color: black;
+    font-size: 15px;
+    
+}
+
+.escuro{
+    background-color:grey;
+    color: floralwhite;
+    font-size: 15px;
+}

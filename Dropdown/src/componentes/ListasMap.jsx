@@ -8,7 +8,7 @@ export default function ListasMap(){
             <div>
                 <ul>
                     {nomes.map(nome => (
-                        <li style={{fontSize:'14px'}} >{nome}</li>
+                        <li style={{fontSize:'14px'}} >{nome} - </li>
                     ))}
                 </ul>
             </div>
