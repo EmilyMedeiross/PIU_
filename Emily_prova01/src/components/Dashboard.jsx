@@ -5,7 +5,7 @@ import {carros} from "./dados_carro"
 
 export default function Listas({children}){
     
-    // Aqui pergeui todos os carros da cor vermelha
+    // Aqui peguei todos os carros da cor vermelha
     const carrosFilter = carros.filter(carro => carro.cor === "vemelho");
 
     return(
